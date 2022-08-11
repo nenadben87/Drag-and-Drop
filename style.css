@@ -1,0 +1,38 @@
+body {
+  background-color: steelblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.empty {
+  display: flex;
+  width: 20vw;
+  height: 30vh;
+  background-color: #fff;
+  border: 1px solid #333;
+  margin: 1.5rem;
+}
+
+.fill {
+  background: url('./work-view.jpg') center center/cover;
+  width: 16.1vw;
+  height: 30vh;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.hold {
+  background-color: gray;
+}
+
+.empty.hovered {
+  background-color: #cccccc;
+  border: 2px dashed #333;
+}
+
