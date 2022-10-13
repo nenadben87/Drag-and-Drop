@@ -56,3 +56,43 @@ body {
   }
 }
 
+@media(min-width: 1440px){
+  .container .empty .fill {
+    background: url('./work-view.jpg') center center/cover;
+    width: 240px;
+    height: 30vh;
+  }
+}
+
+@media(min-width: 1536px){
+  .container .empty .fill {
+    background: url('./work-view.jpg') center center/cover;
+    width: 255px;
+    height: 30vh;
+  }
+}
+
+@media(min-width: 1600px){
+  .container .empty .fill {
+    background: url('./work-view.jpg') center center/cover;
+    width: 270px;
+    height: 30vh;
+  }
+}
+
+@media(min-width: 1920px){
+  .container .empty .fill {
+    background: url('./work-view.jpg') center center/cover;
+    width: 350px;
+    height: 30vh;
+  }
+}
+
+@media(min-width: 2560px){
+  .container .empty .fill {
+    background: url('./work-view.jpg') center center/cover;
+    width: 460px;
+    height: 30vh;
+  }
+}
+
